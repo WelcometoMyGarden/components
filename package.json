@@ -2,7 +2,7 @@
   "name": "wtmg-components",
   "version": "0.0.1",
   "description": "",
-  "svelte": "src/index.js",
+  "svelte": "src/components/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
   "scripts": {
@@ -45,7 +45,7 @@
     "svelte-loader": "^2.13.6"
   },
   "files": [
-    "src",
+    "src/components",
     "dist"
   ],
   "dependencies": {}
