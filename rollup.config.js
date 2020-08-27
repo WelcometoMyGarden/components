@@ -8,7 +8,7 @@ import pkg from './package.json';
 const production = !process.env.ROLLUP_WATCH;
 
 export default {
-  input: 'src/index.js',
+  input: 'src/components/index.js',
   output: [
     { file: pkg.module, format: 'es' },
     { file: pkg.main, format: 'umd', name: pkg.name }
