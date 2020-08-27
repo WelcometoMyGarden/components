@@ -46,7 +46,8 @@
   },
   "files": [
     "src/components",
-    "dist"
+    "dist",
+    "public"
   ],
   "dependencies": {}
 }
