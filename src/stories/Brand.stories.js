@@ -1,4 +1,4 @@
-import { Brand } from '../components';
+import Brand from '../views/Brand.svelte';
 
 export default {
   title: 'Example/Brand',
