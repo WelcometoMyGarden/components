@@ -5,3 +5,4 @@ export { default as TopNav } from './TopNav.svelte';
 export { default as Brand } from './Brand.svelte';
 export { default as UserDropdown } from './UserDropdown.svelte';
 export { default as Hamburger } from './Hamburger.svelte';
+export { default as Selector } from './Selector.svelte';
