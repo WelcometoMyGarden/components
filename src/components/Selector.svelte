@@ -14,7 +14,7 @@
     background-color: transparent;
     border: 0;
     outline: 0;
-    background-image: url(/images/icons/globe.svg), url(/images/icons/caret-down.svg);
+    background-image: url(/icons/globe.svg), url(/icons/caret-down.svg);
     background-repeat: no-repeat;
     background-position: left center, right 0.7rem top 50%;
     background-size: 2rem auto, 0.65em auto, 100%;
