@@ -14,3 +14,4 @@ export { default as NavDrawer } from './NavDrawer.svelte';
 export { default as Overlay } from './Overlay.svelte';
 export { default as Image } from './Image.svelte';
 export { default as Notifications } from './Notifications.svelte';
+export { default as Progress } from './Progress.svelte';
