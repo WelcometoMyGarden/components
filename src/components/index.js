@@ -19,3 +19,4 @@ export { default as Textarea } from './Textarea.svelte';
 export { default as Input } from './Input.svelte';
 export { default as Checkbox } from './Checkbox.svelte';
 export { default as Avatar } from './Avatar.svelte';
+export { default as Badge } from './Badge.svelte';
