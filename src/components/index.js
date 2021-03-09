@@ -15,3 +15,6 @@ export { default as Overlay } from './Overlay.svelte';
 export { default as Image } from './Image.svelte';
 export { default as Notifications } from './Notifications.svelte';
 export { default as Progress } from './Progress.svelte';
+export { default as Textarea } from './Textarea.svelte';
+export { default as Input } from './Input.svelte';
+export { default as Checkbox } from './Checkbox.svelte';
