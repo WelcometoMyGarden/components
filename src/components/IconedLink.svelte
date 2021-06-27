@@ -1,5 +1,5 @@
 <script>
-  import Icon from './Icon';
+  import Icon from './Icon.svelte';
   export let href;
   export let active;
   export let icon;
