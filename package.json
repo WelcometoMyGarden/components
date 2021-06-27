@@ -1,5 +1,5 @@
 {
-  "name": "wtmg-components",
+  "name": "@wtmg/components",
   "version": "0.0.1",
   "description": "",
   "svelte": "src/components/index.js",
