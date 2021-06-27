@@ -3,6 +3,7 @@ import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
 import pkg from './package.json';
+import svg from 'rollup-plugin-svg'
 import alias from '@rollup/plugin-alias';
 
 // eslint-disable-next-line no-undef
@@ -15,6 +16,7 @@ export default {
     { file: pkg.main, format: 'umd', name: pkg.name }
   ],
   plugins: [
+    svg(),
     svelte({
       include: 'src/**/*.svelte',
       dev: true
