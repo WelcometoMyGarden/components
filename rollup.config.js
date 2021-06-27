@@ -3,6 +3,7 @@ import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
 import pkg from './package.json';
+import alias from '@rollup/plugin-alias';
 
 // eslint-disable-next-line no-undef
 const production = !process.env.ROLLUP_WATCH;
@@ -17,6 +18,9 @@ export default {
     svelte({
       include: 'src/**/*.svelte',
       dev: true
+    }),
+    alias({
+      entries: [{ find: '@', replacement: `${__dirname}/src` }]
     }),
     resolve(),
     commonjs(),
