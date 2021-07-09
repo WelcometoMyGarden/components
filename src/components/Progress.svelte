@@ -58,9 +58,12 @@
     overflow: hidden;
     position: relative;
   }
-  :global(.nprogress-custom-parent #nprogress .spinner, .nprogress-custom-parent #nprogress .bar) {
+
+  :global(.nprogress-custom-parent #nprogress .spinner),
+  :global(.nprogress-custom-parent #nprogress .bar) {
     position: absolute;
   }
+
   @-webkit-keyframes -global-nprogress-spinner {
     0% {
       -webkit-transform: rotate(0deg);
