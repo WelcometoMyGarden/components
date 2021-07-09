@@ -1,5 +1,6 @@
 /* Dispatch event on click outside of dom node */
 export default (node) => {
+  if (typeof window == 'undefined') return;
   const handleClick = (event) => {
     if (node && !node.contains(event.target) && !event.defaultPrevented) {
       node.dispatchEvent(new CustomEvent('click-outside', { detail: { clickEvent: event, node } }));

@@ -1,4 +1,5 @@
 export default (node) => {
+  if (typeof window == 'undefined') return;
   let x;
   let y;
 

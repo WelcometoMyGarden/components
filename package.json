@@ -1,6 +1,6 @@
 {
   "name": "@wtmg/components",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "svelte": "src/components/index.js",
   "module": "dist/index.mjs",
