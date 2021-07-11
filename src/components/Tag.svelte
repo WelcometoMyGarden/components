@@ -1,7 +1,7 @@
 <script>
   import { createEventDispatcher } from 'svelte';
   import { crossIcon } from '../images/icons';
-  import { Icon } from './index';
+  import Icon from './Icon.svelte';
   export let label;
   export let icon = null;
   export let closeButton = true;
